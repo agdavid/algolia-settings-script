@@ -1,5 +1,7 @@
 # algolia-settings-script
 
+> This is an example project built to test the basic capabilities of [Claude Code](https://claude.com/claude-code). It was scaffolded, iterated on, and pushed to GitHub through Claude Code to exercise a simple end-to-end workflow.
+
 A small Node.js script that updates an Algolia index's `searchableAttributes` using the [Algolia JavaScript client v5](https://www.algolia.com/doc/libraries/javascript/v5/). Before applying, it fetches the current settings and prints a diff of what will change, then waits for the task to finish and reports how long it took.
 
 ## Requirements
